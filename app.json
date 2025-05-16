@@ -24,6 +24,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "26679eb8-bc36-4e6b-a4ad-c218cb4bfe23"
+      }
+    },
+    "owner": "takechy"
   }
 }
