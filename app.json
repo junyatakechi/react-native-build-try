@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.takechydev.reactnativebuildtry"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,9 +29,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "26679eb8-bc36-4e6b-a4ad-c218cb4bfe23"
+        "projectId": "20bcbbaa-cffd-4321-a2df-f7ca4172b27f"
       }
     },
-    "owner": "takechydev"
+    "owner": "bangster"
   }
 }
