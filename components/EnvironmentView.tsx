@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import { Platform } from 'react-native';
-import { API_URL, APP_ENV } from '@env';
+import { API_URL, API_KEY } from '@env';
 
 export const EnvironmentView = () => {
   return (
@@ -14,8 +14,8 @@ export const EnvironmentView = () => {
       </View>
       
       <View style={styles.row}>
-        <Text style={styles.key}>APP_ENV:</Text>
-        <Text style={styles.value}>{APP_ENV || '未設定'}</Text>
+        <Text style={styles.key}>API_KEY:</Text>
+        <Text style={styles.value}>{API_KEY || '未設定'}</Text>
       </View>
       
       <View style={styles.row}>

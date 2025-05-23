@@ -35,7 +35,7 @@ module.exports = {
     apiUrl: process.env.API_URL || "default",
     appEnv: process.env.APP_ENV || "default",
     eas: {
-      projectId: "your-project-id"
+      projectId: "20bcbbaa-cffd-4321-a2df-f7ca4172b27f"
     }
   }
 };
